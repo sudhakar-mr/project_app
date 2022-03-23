@@ -20,3 +20,12 @@ git add . && git commit -m "update readme file"
 git remote add origin https://github.com/sudhakar-mr/project_app.git
 git branch -M main
 git push -u origin main
+
+
+python src/get_data.py
+git add src/get_data.py && git commit -m "added get_data.py"
+git push -u origin main
+
+python src/load_data.py
+git add src/load_data.py && git commit -m "added load_data.py"
+git push -u origin main
