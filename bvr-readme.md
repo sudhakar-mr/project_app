@@ -49,3 +49,13 @@ touch report/params.json
 touch report/scores.json
 
 update metrics in dvc.yaml
+
+
+git add . && git commit -m "metrics"
+git push -u origin main
+
+Make changes in params values to renegenerate new stores.
+
+dvc params diff
+dvc repro
+dvc params diff
