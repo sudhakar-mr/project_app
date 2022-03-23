@@ -29,3 +29,7 @@ git push -u origin main
 python src/load_data.py
 git add src/load_data.py && git commit -m "added load_data.py"
 git push -u origin main
+
+python src/split_data.py
+git add . && git commit -m "added split_data.py"
+git push -u origin main
