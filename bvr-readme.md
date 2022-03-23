@@ -59,3 +59,19 @@ Make changes in params values to renegenerate new stores.
 dvc params diff
 dvc repro
 dvc params diff
+
+
+TOX Testing
+
+touch tox.ini
+Update tox.ini file
+
+
+mkdir tests
+touch tests/__init__.py
+touch tests/conftest.py
+touch tests/test_config.py
+
+Add a testcase in test_config.py
+
+pytest -v
