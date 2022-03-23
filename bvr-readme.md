@@ -16,3 +16,7 @@ git add .
 git status
 git commit -m "First commit"
 git add . && git commit -m "update readme file"
+
+git remote add origin https://github.com/sudhakar-mr/project_app.git
+git branch -M main
+git push -u origin main
