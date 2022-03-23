@@ -33,3 +33,19 @@ git push -u origin main
 python src/split_data.py
 git add . && git commit -m "added split_data.py"
 git push -u origin main
+
+python src/train_and_evaluate.py
+git add . && git commit -m "train and evaluate"
+git push -u origin main
+
+Update train and evaluate python code and dvc yaml
+dvc repro
+
+git add . && git commit -m "joblib created"
+git push -u origin main
+
+mkdri report
+touch report/params.json
+touch report/scores.json
+
+update metrics in dvc.yaml
