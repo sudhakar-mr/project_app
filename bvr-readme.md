@@ -75,3 +75,11 @@ touch tests/test_config.py
 Add a testcase in test_config.py
 
 pytest -v
+
+
+tox -r (THIS WILL REBUILD TOX FROM SCRATCH - DOWNLOADS ALL DEPENDENCIES ONCE AGAIN)
+
+
+
+pip install jupyterlab
+jupyter-lab notebooks/
