@@ -83,3 +83,27 @@ tox -r (THIS WILL REBUILD TOX FROM SCRATCH - DOWNLOADS ALL DEPENDENCIES ONCE AGA
 
 pip install jupyterlab
 jupyter-lab notebooks/
+
+
+Add exception class to test_config.py and run "tox"
+
+
+Update tox.ini file to add flask8 commands and run "tox"
+
+
+Create Flask application
+-----------------------
+  mkdir -p prediction_service/model
+  mkdir webapp
+  touch app.py
+  touch prediction_service/__init__.py
+  touch prediction_service/prediction.py
+  mkdir -p webapp/static/css
+  mkdir -p webapp/static/script
+  touch webapp/static/css/main.css
+  touch webapp/static/script/index.js
+  mkdir -p webapp/templates
+  touch webapp/templates/index.html
+  touch webapp/templates/404.html
+  touch webapp/templates/base.html
+
